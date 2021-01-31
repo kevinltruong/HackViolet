@@ -57,26 +57,3 @@ public func decodeJsonFileIntoArrayOfStructs<T: Decodable>(fullFilename: String,
     // Return the array of structs of type T
     return arrayOfStructs!
 }
- 
-/*
-********************************************************
-MARK: - Copy File from Main Bundle to Document Directory
-********************************************************
-*/
-public func copyFileFromMainBundleToDocumentDirectory(filename: String, fileExtension: String, folderName: String) {
-   
-    if let fileUrlInMainBundle = Bundle.main.url(forResource: filename, withExtension: fileExtension, subdirectory: folderName) {
-       
-        let fileUrlInDocDir = documentDirectory.appendingPathComponent("\(filename).\(fileExtension)")
-       
-        do {
-            try FileManager.default.copyItem(at: fileUrlInMainBundle, to: fileUrlInDocDir)
-        } catch {
-            print("Unable to copy file \(filename).\(fileExtension) from main bundle to document directory!")
-        }
-       
-    } else {
-        print("The file \(filename).\(fileExtension) does not exist in \(folderName) in main bundle!")
-    }
-}
- 
