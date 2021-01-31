@@ -1,0 +1,204 @@
+[
+  {
+    "id": 1,
+    "name": "General Chemistry",
+    "courseNumber": "CHEM 1035",
+    "creditHours": 3,
+    "preRequisites": "None",
+    "coRequisites": "MATH 1025 or MATH 1225"
+  },
+
+  {
+    "id": 2,
+    "name": "General Chemistry Lab",
+    "courseNumber": "CHEM 1045",
+    "creditHours": 1,
+    "preRequisites": "None",
+    "coRequisites": "CHEM 1035"
+  },
+  {
+    "id": 3,
+    "name": "First-Year Writing",
+    "courseNumber": "ENGL 1105",
+    "creditHours": 3,
+    "preRequisites": "None",
+    "coRequisites": "None"
+  },
+  {
+    "id": 4,
+    "name": "Calculus of a Single Variable",
+    "courseNumber": "MATH 1225",
+    "creditHours": 4,
+    "preRequisites": "None",
+    "coRequisites": "None"
+  },
+  {
+    "id": 5,
+    "name": "Foundations of Engineering",
+    "courseNumber": "ENGE 1215",
+    "creditHours": 2,
+    "preRequisites": "None",
+    "coRequisites": "None"
+  },
+  {
+    "id": 6,
+    "name": "Foundations of Physics I w/lab",
+    "courseNumber": "PHYS 2305",
+    "creditHours": 4,
+    "preRequisites": "MATH 1205 or MATH 1205H or MATH 1225 or MATH 1206 or MATH 1206H or MATH 1226",
+    "coRequisites": "PHYS 2325 or MATH 1206 OR MATH 1206H OR MATH 1226"
+  },
+  {
+    "id": 7,
+    "name": "First-Year Writing",
+    "courseNumber": "ENGL 1106",
+    "creditHours": 3,
+    "preRequisites": "ENGL 1105",
+    "coRequisites": "None"
+  },
+  {
+    "id": 8,
+    "name": "Calculus of a Single Variable",
+    "courseNumber": "MATH 1226",
+    "creditHours": 4,
+    "preRequisites": "MATH 1225",
+    "coRequisites": "None"
+  },
+  {
+    "id": 9,
+    "name": "Intro to Software Design",
+    "courseNumber": "CS 1114",
+    "creditHours": 3,
+    "preRequisites": "None",
+    "coRequisites": "None"
+  },
+  {
+    "id": 10,
+    "name": "Intro to Multivariable Calculus",
+    "courseNumber": "MATH 2204",
+    "creditHours": 3,
+    "preRequisites": "MATH 1226",
+    "coRequisites": "None"
+  },
+  {
+    "id": 11,
+    "name": "Intro to Discrete Math",
+    "courseNumber": "MATH 2534",
+    "creditHours": 3,
+    "preRequisites": "CS 1114 or ECE 1574",
+    "coRequisites": "None"
+  },
+  {
+    "id": 12,
+    "name": "Computer Science 1st Yr Sem",
+    "courseNumber": "CS 1944",
+    "creditHours": 1,
+    "preRequisites": "CS 1114",
+    "coRequisites": "None"
+  },
+  {
+    "id": 13,
+    "name": "Intro to Problem Solving in CS",
+    "courseNumber": "CS 2104",
+    "creditHours": 3,
+    "preRequisites": "CS 1114 and MATH 1225",
+    "coRequisites": "None"
+  },
+  {
+    "id": 14,
+    "name": "Software Design & Data Structures",
+    "courseNumber": "CS 2114",
+    "creditHours": 3,
+    "preRequisites": "CS 1114 or CS 1124",
+    "coRequisites": "None"
+  },
+  {
+    "id": 15,
+    "name": "Introduction to Linear Algebra",
+    "courseNumber": "MATH 2114",
+    "creditHours": 3,
+    "preRequisites": "MATH 1225(B) or MATH 1226",
+    "coRequisites": "None"
+  },
+  {
+    "id": 16,
+    "name": "Intro to Computer Organization I",
+    "courseNumber": "CS 2505",
+    "creditHours": 3,
+    "preRequisites": "CS 2114",
+    "coRequisites": "MATH 2534 or MATH 3034"
+  },
+  {
+    "id": 17,
+    "name": "Applied Combinatorics",
+    "courseNumber": "MATH 3134",
+    "creditHours": 3,
+    "preRequisites": "(MATH 1206 or MATH 1226) and (MATH 2534 or MATH 3034)",
+    "coRequisites": "None"
+  },
+  {
+    "id": 18,
+    "name": "Intro to Computer Organization II",
+    "courseNumber": "CS 2506",
+    "creditHours": 3,
+    "preRequisites": "CS 2505, CS 2114, (MATH 2534 or MATH 3034)",
+    "coRequisites": "None"
+  },
+  {
+    "id": 19,
+    "name": "Data Structures and Algorithms",
+    "courseNumber": "CS 3114",
+    "creditHours": 3,
+    "preRequisites": "CS 2505, CS 2114, (MATH 2534 or MATH 3034)",
+    "coRequisites": "None"
+  },
+  {
+    "id": 20,
+    "name": "Computer Systems",
+    "courseNumber": "CS 3214",
+    "creditHours": 3,
+    "preRequisites": "CS 2506, CS 2114",
+    "coRequisites": "None"
+  },
+  {
+    "id": 21,
+    "name": "Professionalism in Computing",
+    "courseNumber": "CS 3604",
+    "creditHours": 3,
+    "preRequisites": "CS 1944, CS 2114, COMM 2004",
+    "coRequisites": ""
+  },
+  {
+    "id": 22,
+    "name": "Computer Science First Year Seminar",
+    "courseNumber": "CS 1944",
+    "creditHours": 1,
+    "preRequisites": "None",
+    "coRequisites": "None"
+  },
+  {
+    "id": 23,
+    "name": "Public Speaking",
+    "courseNumber": "COMM 2004",
+    "creditHours": 3,
+    "preRequisites": "None",
+    "coRequisites": "None"
+  },
+  {
+    "id": 24,
+    "name": "Comparative Languages",
+    "courseNumber": "CS 3304",
+    "creditHours": 3,
+    "preRequisites": "CS 3114",
+    "coRequisites": "None"
+  },
+  {
+    "id": 25,
+    "name": "Senior Seminar",
+    "courseNumber": "CS 4944",
+    "creditHours": 1,
+    "preRequisites": "CS 3604",
+    "coRequisites": "None"
+  }
+  
+]
